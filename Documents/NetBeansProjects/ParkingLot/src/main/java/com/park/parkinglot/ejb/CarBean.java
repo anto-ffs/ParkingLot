@@ -39,7 +39,7 @@ public class CarBean {
         return detailsList;
     }
 
-    public List<Car> getAllCars() {
+    public List<CarDetails> getAllCars() {
     LOG.info("getAllCars");
         try {
             Query query=em.createQuery("SELECT c FROM Car c");
