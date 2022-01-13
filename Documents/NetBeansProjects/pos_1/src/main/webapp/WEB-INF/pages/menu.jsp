@@ -16,7 +16,8 @@
                href="${pageContext.request.contextPath}/about.jsp">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ${pageContext.request.requestURI eq '/ParkingLot/about.jsp' ? ' active' : ''}">Disabled</a>
+            <a class="nav-link ${activePage eq 'Products' ? ' active' : ''}" 
+               href="${pageContext.request.contextPath}/Products" >Products</a>
           </li>
         </ul>
        <ul class="navbar-nav d-flex"">

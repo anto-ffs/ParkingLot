@@ -25,7 +25,7 @@
       2 of 3 (wider)
     </div>
     <div class="col">
-      3 of 3
+      ${numberOfProducts}
     </div>
   </div>
 </div>
